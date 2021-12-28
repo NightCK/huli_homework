@@ -1,0 +1,8 @@
+function star(starNumber) {
+    for(var i = 1; i <= starNumber; i++){
+        console.log("*");
+    }
+}
+
+star(9);
+

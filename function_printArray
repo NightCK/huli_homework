@@ -1,0 +1,11 @@
+function print(arrayNumber) {
+    var result = [];
+    
+    for(var i = 1; i <= arrayNumber; i++) {
+        result.push(i);
+    }
+
+    return result;
+}
+
+console.log(print(1));

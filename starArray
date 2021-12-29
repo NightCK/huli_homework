@@ -1,11 +1,10 @@
 function star(starNumber) {
     var stars = "";
-
     for(var i = 0; i < starNumber; i++) {
-        stars += "*"; // += 會把原有的值加上新的值
+        stars += "*";
     }
 
-    console.log(stars);
-};
+    return stars;
+}
 
-star(3);
+console.log(star(5));

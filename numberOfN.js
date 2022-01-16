@@ -1,11 +1,12 @@
 function findSmallCount(arr, num) {
-    
-    for(var n = 0; arr[n] <= num; n++) {
-        var result = n
+    var result = 0
 
-        console.log(n)
+    for(var n = 0; arr[n] < num; n++) {
+        result += 1
     }
 
+    console.log(result)
+    return
 }
 
-findSmallCount([1,2,3],2)
+findSmallCount([1,2,3],4)

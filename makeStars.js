@@ -10,7 +10,6 @@ function makeStars(n) {
             result += "\n"
         }
     }
-
     return result
 }
 

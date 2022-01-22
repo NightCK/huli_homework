@@ -3,14 +3,10 @@ function stars(n) {
     var i = 0
 
     for(var line = 1; line <= n; line++ ) {
-        // console.log("this is line =", line)
-
         while(i < line) {
-            // console.log("this is i =", i)
             result += "*"
             i++
         }
-
         console.log(result)
     }
     return

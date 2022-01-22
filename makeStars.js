@@ -5,7 +5,6 @@ function makeStars(n) {
         for(var i = 0; i < line; i++) {
             result += "*"
         }
-
         if(line < n){
             result += "\n"
         }

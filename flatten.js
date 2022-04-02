@@ -15,10 +15,10 @@ function flatten(arr) {
         return
     }
 
-    console.log(result.reverse())
-    return
+    return result.reverse()
 }
 
-flatten([1, 2, [1, 2], [1, 3], 6]) //預期回傳值：[1, 2, 1, 2, 1, 3, 6]
-flatten([1, [2, [3, [4]], 5], 6]) //預期回傳值：[1, 2, 3, 4, 5, 6]
-flatten('test')
+// flatten([1, 2, [1, 2], [1, 3], 6]) //預期回傳值：[1, 2, 1, 2, 1, 3, 6]
+// flatten([1, [2, [3, [4]], 5], 6]) //預期回傳值：[1, 2, 3, 4, 5, 6]
+
+module.exports = flatten
